@@ -211,6 +211,8 @@ class SekaiUserData:
     # JP/EN Only
     credential: Optional[str] = None
     updatedResources: Optional[dict] = None
+    # EN Only
+    helpShiftGlDigest: Optional[str] = None
     # ROW
     sessionToken: Optional[str] = None
 
